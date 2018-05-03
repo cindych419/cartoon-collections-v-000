@@ -13,5 +13,5 @@ end
 
 def find_the_cheese(snacks)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.any? {|cheese| cheese == cheese_types[0] || cheese_types[1] || cheese_types[2]}# the array below is here to help
+  snacks.select {|cheese| cheese == cheese_types[0] || cheese_types[1] || cheese_types[2]}# the array below is here to help
 end
