@@ -7,7 +7,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
 end
 
 def long_planeteer_calls(calls)
-  calls.collect{|words| words.length.any? > 4}# code an argument here
+  calls.any?{|words| words.length > 4}# code an argument here
   # Your code here
 end
 
